@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>qingqing</title><link href="http://kaizengliu.github.io/test/" rel="alternate"></link><link href="http://kaizengliu.github.io/test/feeds/posts.atom.xml" rel="self"></link><id>http://kaizengliu.github.io/test/</id><updated>2015-04-27T00:15:00+02:00</updated><entry><title>页面测试1</title><link href="http://kaizengliu.github.io/test/test-pagetest1.html" rel="alternate"></link><updated>2015-04-27T00:15:00+02:00</updated><author><name>liuqingqing</name></author><id>tag:kaizengliu.github.io,2015-04-27:test/test-pagetest1.html</id><summary type="html">&lt;h1&gt;一级主题1&lt;/h1&gt;
+&lt;h2&gt;二级主题&lt;/h2&gt;
+&lt;h3&gt;三级主题&lt;/h3&gt;
+&lt;h2&gt;二级主题&lt;/h2&gt;</summary><category term="pelican"></category><category term="publishing，测试1"></category></entry></feed>

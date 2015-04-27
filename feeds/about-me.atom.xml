@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>qingqing</title><link href="http://kaizengliu.github.io/test/" rel="alternate"></link><link href="http://kaizengliu.github.io/test/feeds/about-me.atom.xml" rel="self"></link><id>http://kaizengliu.github.io/test/</id><updated>2015-04-27T00:15:00+02:00</updated><entry><title>页面测试</title><link href="http://kaizengliu.github.io/test/test-pagetest.html" rel="alternate"></link><updated>2015-04-27T00:15:00+02:00</updated><author><name>liuqingqing</name></author><id>tag:kaizengliu.github.io,2015-04-27:test/test-pagetest.html</id><summary type="html">&lt;h1&gt;一级主题&lt;/h1&gt;
+&lt;h2&gt;二级主题&lt;/h2&gt;
+&lt;h3&gt;三级主题&lt;/h3&gt;
+&lt;h2&gt;二级主题&lt;/h2&gt;</summary><category term="pelican"></category><category term="publishing，测试"></category></entry><entry><title>pelican测试</title><link href="http://kaizengliu.github.io/test/my-super-post.html" rel="alternate"></link><updated>2015-04-26T22:06:00+02:00</updated><author><name>liuqingqing</name></author><id>tag:kaizengliu.github.io,2015-04-26:test/my-super-post.html</id><summary type="html">&lt;h1&gt;一级主题&lt;/h1&gt;
+&lt;h2&gt;二级主题&lt;/h2&gt;
+&lt;h2&gt;二级主题&lt;/h2&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>

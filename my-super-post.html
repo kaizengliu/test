@@ -5,118 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="qingqing, ">
 
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
-    <link rel="stylesheet" href="http://kaizengliu.github.io/test/theme/pure.css">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://use.typekit.net/ajf8ggy.js"></script>
-    <script>
-        try { Typekit.load(); } catch (e) {}
-    </script>
-
+        <link rel="alternate"  href="http://kaizengliu.github.io/test/feeds/all.atom.xml" type="application/atom+xml" title="qingqing Full Atom Feed"/>
 
         <title>pelican测试 // qingqing // </title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://kaizengliu.github.io/test/theme/css/pure.css">
+    <link rel="stylesheet" href="http://kaizengliu.github.io/test/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
 </head>
 
 <body>
-    <div class="pure-g-r content" id="layout">
-        <div class="pure-u" id="nav">
-            <a href="#" class="nav-menu-button">Menu</a>
-
-            <div class="nav-inner">
-                <h1>
-                    <a class="logo" href="http://kaizengliu.github.io/test"><img id="profileimg" src="" alt="qingqing"></a>
-                </h1>
-                <div class="pure-menu pure-menu-open">
-                    <ul>
-                        <span class="pure-menu-heading">qingqing</span>
-                        <li class="pure-menu-heading">Categories</li>
-                            <li><a href="http://kaizengliu.github.io/test/category/about-me.html"><span class="cat-label-yellow"<span class="cat-label-blue"></span>about me</a></li>
-                            <li><a href="http://kaizengliu.github.io/test/category/posts.html"><span class="cat-label-blue"></span>posts</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    <div class="pure-u-3-4">
-        <div class="article-content margin-blue">
-            <div class="article-content-header pure-g">
-                <div class="pure-u-1">
-                    <h1 class="article-content-title">pelican测试</h1>
-                    <p class="article-content-subtitle">
-                        by <a href="http://kaizengliu.github.io/test/author/liuqingqing.html">liuqingqing</a> on <span>周日 26 四月 2015</span>
-                        // Posted in <a href="http://kaizengliu.github.io/test/category/about-me.html">about me</a>
-                            // under                                 <a class="post-category post-category-design" href="http://kaizengliu.github.io/test/tag/pelican.html">pelican</a>
-                                <a class="post-category post-category-design" href="http://kaizengliu.github.io/test/tag/publishing.html">publishing</a>
-                    </p>
-                </div>
-            </div>
-            <div class="article-content-body">
-                <p>
-                    <h1>一级主题</h1>
-<h2>二级主题</h2>
-<h2>二级主题</h2>
-                </p>
- 
-            </div>
-        </div>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="http://kaizengliu.github.io/test/author/liuqingqing.html" title="See posts by liuqingqing">
+                </a>
+                <h2 class="article-info">liuqingqing</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>周日 26 四月 2015</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
     </div>
-
-        <div class="pure-u-3-4">
-            <footer class="footer">
-                <p>&copy; qingqing &ndash;
-                    Built with <a href="https://github.com/danclaudiupop/pure">Pure Theme</a>
-                    for <a href="http://blog.getpelican.com/">Pelican</a>
-                </p>
-                <p>Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
-                <a href="#" class="go-top">Go Top</a>
-            </footer>
-        </div>
-
-    <script src="http://yui.yahooapis.com/3.10.1/build/yui/yui-min.js"></script>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>pelican测试</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="http://kaizengliu.github.io/test/tag/pelican.html">pelican</a>
+                                <a class="post-category" href="http://kaizengliu.github.io/test/tag/publishing.html">publishing</a>
+                        </p>
+                </header>
+            </section>
+            <h1>一级主题</h1>
+<h2>二级主题</h2>
+<h2>二级主题</h2>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; qingqing &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
     <script>
-        YUI().use('node-base', 'node-event-delegate', function (Y) {
+        var $top = $('.go-top');
 
-            var menuButton = Y.one('.nav-menu-button'),
-                nav        = Y.one('#nav');
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
 
-            // Setting the active class name expands the menu vertically on small screens.
-            menuButton.on('click', function (e) {
-                nav.toggleClass('active');
-            });
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
 
-            // Your application code goes here...
-
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
         });
     </script>
-    <script>
-        YUI().use('node-base', 'node-event-delegate', function (Y) {
-            // This just makes sure that the href="#" attached to the <a> elements
-            // don't scroll you back up the page.
-            Y.one('body').delegate('click', function (e) {
-                e.preventDefault();
-            }, 'a[href="#"]');
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            // Show or hide the sticky footer button
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 200) {
-                    $('.go-top').fadeIn(200);
-                } else {
-                    $('.go-top').fadeOut(200);
-                }
-            });
-
-            // Animate the scroll to top
-            $('.go-top').click(function(event) {
-                event.preventDefault();
-
-                $('html, body').animate({scrollTop: 0}, 300);
-            })
-        });
-    </script>
-
 </body>
 </html>

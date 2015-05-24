@@ -1,75 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Record Qing</title>
-	<meta name="description" content="">
-	<meta name="author" content="LiuQingQing">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Record Qing</title>
+    <link rel="stylesheet" type="text/css" href="http://kaizengliu.github.io/test/theme/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://kaizengliu.github.io/test/theme/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://kaizengliu.github.io/test/theme/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="http://kaizengliu.github.io/test/theme/css/main.css">
 
-	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
-	<!--[if lt IE 9]>
-		<script src="http://kaizengliu.github.io/test/theme/html5.js"></script>
-	<![endif]-->
-
-	<!-- Styles -->
-	<link href="http://kaizengliu.github.io/test/theme/bootstrap.min.css" rel="stylesheet">
-	<link href="http://kaizengliu.github.io/test/theme/local.css" rel="stylesheet">
-	<link href="http://kaizengliu.github.io/test/theme/pygments.css" rel="stylesheet">
-
-	<!-- Feeds -->
-
-
-
-
+    <script src="http://kaizengliu.github.io/test/theme/js/jquery.min.js"></script>
+    <script src="http://kaizengliu.github.io/test/theme/js/bootstrap.min.js"></script>
+    <script src="http://kaizengliu.github.io/test/theme/js/less.min.js"></script>
 </head>
+
 <body>
-<a href="http://github.com/kaizengliu/"><img style="position: absolute; top: 39px; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub" /></a>
-	<div class="topbar">
-	  <div class="topbar-inner">
-		<div class="container-fluid">
-		  <a class="brand" href="http://kaizengliu.github.io/test/">Record Qing</a>
-			<ul class="nav">
-					<li ><a href="http://kaizengliu.github.io/test/category/test.html">test</a></li>
-			</ul>
-			<p class="pull-right"><a href="http://kaizengliu.github.io/test/archives.html">[archives]</a> <a href="http://kaizengliu.github.io/test/tags.html">[tags]</a></p>
-		</div>
-	  </div>
-	</div>
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand"><i class="fa fa-heart"></i>Record Qing</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-	<div class="container-fluid">
-	  <div class="sidebar">
-		<div class="well">
-			<h3>Blogroll</h3>
-			<ul>
-			</ul>
-			<div class="social">
-			<h3>Social</h3>
-			<ul>
-				<li><a href="http://kaizengliu.github.io/test">github</a></li>
-				<li><a href="#">Another social link</a></li>
-			</ul>
-			</div>
-		</div>
-	  </div>
-	  <div class="content">
-<div class="page-header"><h1> Record Qing </h1></div>
-<div class='article'>
-	<h2>plican使用测试</h2>
-	<div class="well small">Permalink: <a class="more" href="http://kaizengliu.github.io/test/test_page.html">2015-04-26 22:06:00+08:00</a>
-by <a class="url fn" href="http://kaizengliu.github.io/test/author/liuqingqing.html">LiuQingQing </a>
- in <a href="http://kaizengliu.github.io/test/category/test.html">test</a>
-tags: <a href="http://kaizengliu.github.io/test/tag/pelican.html">pelican</a> <a href="http://kaizengliu.github.io/test/tag/test.html">test</a> </div>
-	<div class="summary"><p>Pelican 是一个用Pyhton编写的博客生成工具</p> <a class="btn primary xsmall" href="http://kaizengliu.github.io/test/test_page.html">more…</a>
-	</div>
-</div>	
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="notes">笔记 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="notes">
+                            <li>
+                                <a href="http://kaizengliu.github.io/test/page_out.html">
+                                    pages 1
+                                    <span class="text-muted">2015/05/20</span>
+                                </a>
+                            </li>
 
+                                <li class="divider"></li>
+                            <li>
+                                <a href="http://kaizengliu.github.io/test/test_page.html">
+                                    plican
+                                    <span class="text-muted">2015/04/26</span>
+                                </a>
+                            </li>
 
-		<footer>
-		  <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
-		  <p>&copy; LiuQingQing</p>
-		</footer>
-	  </div>
+                    </ul>
+                </li>
 
-	</div>
+                <li>
+                    <a href="http://kaizengliu.github.io/test/pages/about_me.html">关于我</a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://github.com/kaizengliu/" target="_blank"><i class="fa fa-github"></i>GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-xs-6">
+                <h1>
+    笔记列表
+                </h1>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-xs-6 text-right">
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+    <ul class="article-list">
+        <li class="article-item">
+            <h3 class="text-info">
+                <a href="page_out.html">
+                pages 1
+                <small class="text-muted" style="margin-left: 20px"> 2015/05/20 </small>
+                </a>
+            </h3>
+
+            <div class="article-summary">
+                page out ...<a href="page_out.html"><i class="fa fa-book"></i>查看</a>
+            </div>
+        </li>
+        <li class="article-item">
+            <h3 class="text-info">
+                <a href="test_page.html">
+                plican
+                <small class="text-muted" style="margin-left: 20px"> 2015/04/26 </small>
+                </a>
+            </h3>
+
+            <div class="article-summary">
+                Pelican ...<a href="test_page.html"><i class="fa fa-book"></i>查看</a>
+            </div>
+        </li>
+    </ul>
+
+        关于我
+        <p>Pelican</p>
+        pages/about_me.html
+    </div>
+</div>
 </body>
 </html>
